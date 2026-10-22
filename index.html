@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap">
+
+    <title>راهنمای وب</title>
+</head>
+
+<body>
+    <!-- header section - implemented by flex-->
+    <header id="start-page">
+        <nav>
+            <h4 class="title">راهنمای وب</h4>
+
+            <div>
+                <a href="#chapter1" class="nav-link">فصل‌ها</a>
+                <a href="#questions" class="nav-link">پرسش‌ها</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- hero is about the intro of the page- implemented by flex -->
+        <section class="hero">
+            <h1 class="title">شروع کار حرفه ای با وب</h1>
+            <p class="description">چهار گام برای ساخت و بررسی نخستین صفحۀ فارسی از محتوای روشن تا اصلاح رفتار صفحه در
+                مرورگر.</p>
+            <div>
+                <a href="#chapter1" class="start-tag">شروع مطالعه</a>
+            </div>
+            <span class="newVersion-tag">نسخه جدید</span>
+        </section>
+
+        <!-- implemented by grid -->
+        <section class="article">
+            <!-- it's about study path and if you click on any of them you will be linked - implemented by flex-->
+            <div class="studyPath">
+                <h4 class="title">مسیر مطالعه</h4>
+
+                <div class="item">
+                    <span class="numberOfList">1</span>
+                    <a href="#chapter1" class="descriptionOflist">محتوا پیش از ظاهر</a>
+                </div>
+
+                <div class="item">
+                    <span class="numberOfList">2</span>
+                    <a href="#chapter2" class="descriptionOflist">اندازه و فاصله برای خواندن متن‌های فارسی</a>
+                </div>
+
+                <div class="item">
+                    <span class="numberOfList">3</span>
+                    <a href="#chapter3" class="descriptionOflist">چیدمان متناسب با رابطۀ اطلاعات</a>
+                </div>
+
+                <div class="item">
+                    <span class="numberOfList">4</span>
+                    <a href="#chapter4" class="descriptionOflist">بررسی رفتار صفحه پیش از تحویل</a>
+                </div>
+
+            </div>
+
+            <!-- implemented by grid -->
+            <section class="readingArea">
+                <!-- chapters started and this is chapter 1 - implemented by flex -->
+                <div class="chapters" id="chapter1">
+                    <h6 class="chapter-title">فصل 1</h6>
+                    <h2>محتوا پیش از ظاهر</h2>
+                    <p class="description">پیش از انتخاب رنگ و اندازه، مشخص کنید خواننده باید چه اطلاعاتی
+                        بگیرد. عنوان
+                        اصلی، توضیح کوتاه و راه تماس را بنویسید و ارتباط آن‌ها را با بخش‌های صفحه روشن کنید.</p>
+                    <ul class="chapter-list">
+                        <li>عنوان هر بخش هدف آن را بگوید.</li>
+                        <li>لینک داخلی به بخش موجود برود.</li>
+                    </ul>
+                </div>
+                <!-- chapter 2 - implemented by flex -->
+                <div class="chapters" id="chapter2">
+                    <h6 class="chapter-title">فصل 2</h6>
+                    <h2>اندازه و فاصله برای خواندن متن‌های فارسی</h2>
+                    <p class="description">متن کوتاه تنها ورودی صفحه نیست، عنوان چندخطی و توضیح بلند را نیز
+                        امتحان کنید
+                        تا اندازۀ ظرف، فاصلۀ بند‌ها و فضای اطراف من مانع خواندن نشوند.
+                    </p>
+                    <ul class="chapter-list">
+                        <li>متن کامل در ظرف دیده شود.</li>
+                        <li>فاصلۀ داخلی و فاصلۀ بین بخش‌ها را جدا بررسی کنید.</li>
+                    </ul>
+                </div>
+                <!-- chapter 3 - implemented by flex-->
+                <div class="chapters" id="chapter3">
+                    <h6 class="chapter-title">فصل 3</h6>
+                    <h2>چیدمان متناسب با رابطۀ اطلاعات</h2>
+                    <p class="description">گاهی چند جزء یک ردیف را تشکیل می‌دهند و گاهی یک مجموعه به سطر و ستون
+                        نیاز
+                        دارد. پیش از انتخاب ابزار چیدمان، والد و فرزندان مستقیم آن و ترتیب خواندن اطلاعات را مشخص کنید.
+                    </p>
+                    <ul class="chapter-list">
+                        <li>رابطۀ اجزاء دلیل انتخاب Flex یا Grid باشد.</li>
+                        <li>لینک داخلی به بخش موجود برود.</li>
+                    </ul>
+                </div>
+
+                <!-- chapter 4 - implemented by flex-->
+                <div class="chapters" id="chapter4">
+                    <h6 class="chapter-title">فصل 4</h6>
+                    <h2>بررسی رفتار صفحه پیش از تحویل</h2>
+                    <p class="description">صفحه را فقط در یک اندازه نگاه نکنید. فضای باریک، عنوان بلند، رفتن به
+                        مقصد
+                        لینک و حرکت با صفحه کلید می‌توانند ایرادهایی را نشان دهند که در نمای اولیه پنهان‌اند.
+                    </p>
+                    <ul class="chapter-list">
+                        <li>نتیجه بررسی را همراه ایراد باقی‌مانده بنویسید.</li>
+                        <li>پس از اصلاح دوباره همان حالت خراب را امتحان کنید.</li>
+                    </ul>
+                </div>
+
+                <!-- quide section -->
+                <section class="guide-section">
+                    <h3 class="title">این راهنما برای چه کسی است؟</h3>
+                    <p class="description">برای کسی که HTML و CSS مقدماتی را دیده است و می‌خواهد یک صفحۀ ساده را با
+                        تصمیم‌های قابل توضیح بسازد. این راهنما آموزش JavaScript یا ساخت برنامۀ تعاملی نیست.</p>
+                </section>
+
+            </section>
+
+        </section>
+
+        <!-- questions section -->
+        <section id="questions">
+            <h2 class="title">پرسش‌های رایج</h2>
+            <!--  implemented by grid -->
+            <div class="questions-section">
+                <div class="question">
+                    <h4>آیا به نصب ابزار جدید نیاز دارم؟</h4>
+                    <p class="description">خیر؛ ویرایشگر متن و مرورگر برای تمرین‌های این راهنما کافی‌اند.</p>
+                </div>
+
+                <div class="question">
+                    <h4>آیا باید فقط یک اندازۀ صفحه را بررسی کنم؟</h4>
+                    <p class="description">خیر؛ فضای باریک، عریض و اندازه‌های بین آن‌ها را بررسی کنید.</p>
+                </div>
+
+                <div class="question">
+                    <h4>اگر متن از ظرف بیرون زد چه کنم؟</h4>
+                    <p class="description">ابتدا در DevTools اندازۀ ظرف و متن را بررسی کنید. علت را پیدا کنید و
+                        پس از اصلاح
+                        همان ورودی را دوباره امتحان کنید.</P>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <!-- footer of the page - implemented by flex  -->
+    <footer>
+        <p>راهنمای وب - تمرین مطالعه و ساخت صفحه</p>
+        <a href="#start-page" class="footerTag">بازگشت به آغاز</a>
+    </footer>
+</body>
+
+</html>
